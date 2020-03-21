@@ -18,7 +18,7 @@ public class Ex2 {
         System.out.println("Total number of characters in a string: " + count);
         /*l-am complicat un pic sa dea numarul unui sir de caractere
         in care sa nu calculeze in variabila count spatiile dintre cuvinte
-        dar imi calculeaza in variabila si numerele . Oara care e metoda sa nu puna ?
+        dar imi calculeaza in variabila si numerele . Oara care e metoda sa nu puna  ?
          */
     }
 }
