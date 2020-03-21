@@ -1,13 +1,18 @@
 package org.fasttrackit;
 
-/**
- * Hello world!
- *
- */
-public class App 
+
+import java.util.Scanner;
+
+public class App
 {
-    public static void main( String[] args )
+    public static void main(String[] args)
     {
-        System.out.println( "Hello World!" );
+        Scanner myObj = new Scanner(System.in);
+        String userName = new String();
+
+        System.out.println("What is your name?" + userName);
+        userName = myObj.nextLine();
+
+        System.out.println("Hello, " + userName + " nice to meet you!");
     }
 }
